@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  bison:
+    image: thonyguev/bison:3.8.2
+    tty: true
+    stdin_open: true
+    working_dir: /home/playground/workspaces
+    volumes:
+      - ./ejemplos:/home/playground/workspaces
